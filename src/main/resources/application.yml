@@ -2,9 +2,12 @@ server:
   port: 8888
 spring:
   application:
-    name:  config
+    name: config
   profiles:
     active: dev
+---
+spring:
+  profiles: dev
   cloud:
     config:
       label: master
