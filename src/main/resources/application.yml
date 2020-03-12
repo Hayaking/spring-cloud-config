@@ -6,6 +6,6 @@ spring:
       server:
         git:
           uri: https://github.com/Hayaking/spring-cloud-config.git
-          search-paths: src/main/resources/config
+          search-paths: src/main/resources/static
 server:
   port: 8888
