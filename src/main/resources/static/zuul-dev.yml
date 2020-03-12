@@ -1,28 +1,8 @@
 spring:
-  profile:
-    include: *
-    active: ${spring.profile.active}
   application:
     name: zuul
----
-spring:
-  profile: dev
-server:
-  port: 9494
-eureka:
-  instance:
-    hostname: 39.105.163.41
-  client:
-    service-url:
-      defaultZone: http://${eureka.instance.hostname}:8080/eureka
-zuul:
-  routes:
-    api-a:
-      path: /A/**
-      serviceId: service-consumer
----
-spring:
-  profile: prod
+  profiles:
+    active: dev
 server:
   port: 8083
 eureka:
