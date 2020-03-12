@@ -5,6 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/icoreman/spring-cloud-config-demo1.git #GitHub上面的git仓库名字
+          uri: https://github.com/Hayaking/spring-cloud-config.git
+          search-paths:
 server:
   port: 8888
