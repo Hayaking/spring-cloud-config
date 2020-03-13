@@ -2,7 +2,7 @@ server:
   port: 8080
 eureka:
   instance:
-    hostname: 39.105.163.41
+    hostname: 127.0.0.1
   client:
     register-with-eureka: false
     fetch-registry: false
