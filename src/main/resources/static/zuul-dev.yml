@@ -15,3 +15,6 @@ zuul:
     api-a:
       path: /A/**
       serviceId: service-consumer
+    security:
+      path: /security/**
+      serviceId: service-oauth2
